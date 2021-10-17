@@ -30,7 +30,7 @@ file_t le_load_file(const char * path) {
     }
 
     else {
-        return (file_t){0};
+        return (file_t){"NULL", -1};
     }
 }
 
